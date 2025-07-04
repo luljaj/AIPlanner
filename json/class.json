@@ -1,82 +1,82 @@
 [
     {
         "class_name": "Prog & Hardware Fundamentals",
-        "class_time": "10am",
-        "class_date": "Monday"
+        "class_time": "10:00-11:15",
+        "class_date": 1
     },
     {
         "class_name": "Differential Calc",
-        "class_time": "11am",
-        "class_date": "Monday"
+        "class_time": "12:00-13:15",
+        "class_date": 1
     },
     {
         "class_name": "Integral Calculus-WATSON",
-        "class_time": "12pm",
-        "class_date": "Monday"
+        "class_time": "12:00-13:15",
+        "class_date": 1
     },
     {
         "class_name": "Inquiry and Academic Writing",
-        "class_time": "3pm",
-        "class_date": "Monday"
+        "class_time": "15:00-16:15",
+        "class_date": 1
     },
     {
         "class_name": "Intro To Architecture (LEC)",
-        "class_time": "10am",
-        "class_date": "Tuesday"
+        "class_time": "10:00-11:15",
+        "class_date": 2
     },
     {
         "class_name": "Inquiry and Academic Writing",
-        "class_time": "3pm",
-        "class_date": "Tuesday"
+        "class_time": "15:00-16:15",
+        "class_date": 2
     },
     {
         "class_name": "Prog & Hardware Fundamentals",
-        "class_time": "10am",
-        "class_date": "Wednesday"
+        "class_time": "10:00-11:15",
+        "class_date": 3
     },
     {
         "class_name": "Differential Calc",
-        "class_time": "11am",
-        "class_date": "Wednesday"
+        "class_time": "12:00-13:15",
+        "class_date": 3
     },
     {
         "class_name": "Integral Calculus-WATSON",
-        "class_time": "12pm",
-        "class_date": "Wednesday"
+        "class_time": "12:00-13:15",
+        "class_date": 3
     },
     {
         "class_name": "Prof Skills Ethics & CS Trends",
-        "class_time": "3pm",
-        "class_date": "Wednesday"
+        "class_time": "16:00-17:15",
+        "class_date": 3
     },
     {
         "class_name": "Intro To Architecture (LEC)",
-        "class_time": "10am",
-        "class_date": "Thursday"
+        "class_time": "10:00-11:15",
+        "class_date": 4
     },
     {
         "class_name": "Prog & Hardware Fundamentals",
-        "class_time": "11am",
-        "class_date": "Thursday"
+        "class_time": "12:30-13:45",
+        "class_date": 4
     },
     {
         "class_name": "Inquiry and Academic Writing",
-        "class_time": "3pm",
-        "class_date": "Thursday"
+        "class_time": "15:00-16:15",
+        "class_date": 4
     },
     {
         "class_name": "Prog & Hardware Fundamentals",
-        "class_time": "10am",
-        "class_date": "Friday"
+        "class_time": "10:00-11:15",
+        "class_date": 5
     },
     {
         "class_name": "Differential Calc",
-        "class_time": "11am",
-        "class_date": "Friday"
+        "class_time": "12:00-13:15",
+        "class_date": 5
     },
     {
         "class_name": "Integral Calculus-WATSON",
-        "class_time": "12pm",
-        "class_date": "Friday"
+        "class_time": "12:00-13:15",
+        "class_date": 5
     }
 ]
