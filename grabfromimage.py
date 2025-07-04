@@ -31,4 +31,4 @@ def image_to_json(image_url):
             json.dump(result_dict,f,indent = 4)
     except Exception as e:
         print('Could not save')
-    return result_str
+    return result_dict

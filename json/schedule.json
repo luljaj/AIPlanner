@@ -1,0 +1,187 @@
+{
+    "schedule": [
+        {
+            "name": "Breakfast",
+            "date": 2,
+            "time": "07:00-07:30"
+        },
+        {
+            "name": "Prog & Hardware Fundamentals",
+            "date": 2,
+            "time": "10:00-11:15"
+        },
+        {
+            "name": "Differential Calculus",
+            "date": 2,
+            "time": "12:00-13:15"
+        },
+        {
+            "name": "Integral Calculus-WATSON",
+            "date": 2,
+            "time": "12:00-13:15"
+        },
+        {
+            "name": "Lunch",
+            "date": 2,
+            "time": "13:30-14:00"
+        },
+        {
+            "name": "Gym",
+            "date": 2,
+            "time": "14:05-15:35"
+        },
+        {
+            "name": "Study",
+            "date": 2,
+            "time": "15:40-16:40"
+        },
+        {
+            "name": "Dinner",
+            "date": 2,
+            "time": "17:30-18:00"
+        },
+        {
+            "name": "Breakfast",
+            "date": 3,
+            "time": "07:00-07:30"
+        },
+        {
+            "name": "Intro To Architecture (LEC)",
+            "date": 3,
+            "time": "10:00-11:15"
+        },
+        {
+            "name": "Lunch",
+            "date": 3,
+            "time": "11:20-11:50"
+        },
+        {
+            "name": "Study",
+            "date": 3,
+            "time": "11:55-12:55"
+        },
+        {
+            "name": "Inquiry and Academic Writing",
+            "date": 3,
+            "time": "15:00-16:15"
+        },
+        {
+            "name": "Dinner",
+            "date": 3,
+            "time": "17:30-18:00"
+        },
+        {
+            "name": "Breakfast",
+            "date": 4,
+            "time": "07:00-07:30"
+        },
+        {
+            "name": "Prog & Hardware Fundamentals",
+            "date": 4,
+            "time": "10:00-11:15"
+        },
+        {
+            "name": "Differential Calculus",
+            "date": 4,
+            "time": "12:00-13:15"
+        },
+        {
+            "name": "Integral Calculus-WATSON",
+            "date": 4,
+            "time": "12:00-13:15"
+        },
+        {
+            "name": "Lunch",
+            "date": 4,
+            "time": "13:20-13:50"
+        },
+        {
+            "name": "Gym",
+            "date": 4,
+            "time": "13:55-15:25"
+        },
+        {
+            "name": "Study",
+            "date": 4,
+            "time": "15:30-16:30"
+        },
+        {
+            "name": "Dinner",
+            "date": 4,
+            "time": "17:30-18:00"
+        },
+        {
+            "name": "Breakfast",
+            "date": 5,
+            "time": "07:00-07:30"
+        },
+        {
+            "name": "Intro To Architecture (LEC)",
+            "date": 5,
+            "time": "10:00-11:15"
+        },
+        {
+            "name": "Lunch",
+            "date": 5,
+            "time": "11:20-11:50"
+        },
+        {
+            "name": "Study",
+            "date": 5,
+            "time": "11:55-12:55"
+        },
+        {
+            "name": "Prof Skills Ethics & CS Trends",
+            "date": 5,
+            "time": "15:00-17:45"
+        },
+        {
+            "name": "Dinner",
+            "date": 5,
+            "time": "17:50-18:20"
+        },
+        {
+            "name": "Breakfast",
+            "date": 6,
+            "time": "07:00-07:30"
+        },
+        {
+            "name": "Prog & Hardware Fundamentals",
+            "date": 6,
+            "time": "10:00-11:15"
+        },
+        {
+            "name": "Differential Calculus",
+            "date": 6,
+            "time": "12:00-13:15"
+        },
+        {
+            "name": "Integral Calculus-WATSON",
+            "date": 6,
+            "time": "12:00-13:15"
+        },
+        {
+            "name": "Lunch",
+            "date": 6,
+            "time": "11:20-11:50"
+        },
+        {
+            "name": "Study",
+            "date": 6,
+            "time": "13:20-14:20"
+        },
+        {
+            "name": "Inquiry and Academic Writing",
+            "date": 6,
+            "time": "15:00-16:15"
+        },
+        {
+            "name": "Dinner",
+            "date": 6,
+            "time": "17:30-18:00"
+        }
+    ],
+    "droppedGoals": [
+        "gym session on Friday"
+    ]
+}

@@ -8,6 +8,7 @@ from instructions import initialize_instruction, image_url
 from grabfromimage import image_to_json
 from createfirstschedule import init_schedule
 import json
+import re
 
 print(f"[{time.strftime('%H:%M:%S')}] imports done")
 
@@ -23,15 +24,16 @@ try:
     print(classes)
 except:
     print('Could not load classes. Grabbing again.')
-    image_to_json(image_url)
+    classes = image_to_json(image_url)
 
 try:
     with open("json/schedule.json", "r") as f:
         schedule = json.load(f)
 except:
     print('Could not load.')
+    #completions = client.chat.completions.list()
     schedule = init_schedule(classes,goals,time)
-    print(schedule)
-    with open("json/schedule.json", "r") as f:
-        json.dump(schedule,f,indent=4)
+    jsonschedule = schedule.model_dump_json(indent=4,exclude_none=True)
+    with open("json/schedule.json", "w") as f:
+        f.write(jsonschedule)
 
