@@ -1,22 +1,33 @@
-initialize_instruction = '''You are a weekly scheduling assistant. 
-You will create a weekly text schedule based on the goals you get, the time slots, and the
-class days you get.
+initialize_instruction = '''You are a weekly scheduling assistant.  
+Inputs:
+- classes: list of {name, day (1–7), start, end}  
+- goals: list of {name, duration, day_preferences (list[int] | null), priority(int)}  
 
-The numbers for days are 1-Sunday 2-Monday 3-Tuesday 4-Weds 5-Thurs 6-Friday 7-Saturday
+Produce **plain-text** output sorted by day (1-7) then start time, one task per line, e.g.  
+`2 09:00-10:15  Calculus`  
 
-Return a fixed weekly text schedule. 
-1. Block out class times first.
-2. Output sorted by day and time, plain text.
-3.Never schedule two blocks that overlap or touch; leave at least a 5-minute gap.
-4.Do not place any tasks before 07:00 or after 22:00.
-5.Reserve 8 h for sleep (23:00-07:00) and 3×30 min meal breaks.
-6.Keep the total planned work ≤ 8 h per day (classes + goals).
-7. If constraints make scheduling impossible, relax lowest-priority goals first and note this.
-
-Make sure to keep goal timing in mind.'''
+Rules (in order of importance)  
+1. Block out class times first.  
+2. No task may overlap or touch another; leave ≥5 min gaps.  
+3. Do not schedule anything before 07:00 or after 22:00.  
+4. Reserve sleep 23:00-07:00 and three 30 min meal breaks per day.  
+5. Total planned work (classes + goals) ≤8 h per day.  
+6. If impossible, drop lowest-priority goals first and list which were dropped.  '''
 
 
-vision_ins = '''You are going to take this image schedule and turn it into a JSON with the following format.
-class_name (class_name), class_time (class_time), class_date(number date) Write down all classes individually'''
+vision_ins = '''Extract every class from the timetable image and return an array of objects:
+
+[
+  {
+    "class_name": "Calculus I",
+    "class_time": "09:00-10:15",
+    "class_date": 2          // 1=Sun … 7=Sat
+  },
+  …
+]
+
+Ignore non-class events such as reminders or personal appointments.
+Write every class individually and separately.
+Return only the JSON—no extra text.'''
 
 image_url = '''https://drive.usercontent.google.com/download?id=1bdtzce1wpmOVOYA4ASVlThLRDb9DAnUm'''

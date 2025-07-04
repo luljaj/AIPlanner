@@ -5,13 +5,18 @@
         "class_date": "Monday"
     },
     {
-        "class_name": "Differential Calculus",
+        "class_name": "Differential Calc",
         "class_time": "11am",
         "class_date": "Monday"
     },
     {
         "class_name": "Integral Calculus-WATSON",
         "class_time": "12pm",
+        "class_date": "Monday"
+    },
+    {
+        "class_name": "Inquiry and Academic Writing",
+        "class_time": "3pm",
         "class_date": "Monday"
     },
     {
@@ -30,7 +35,7 @@
         "class_date": "Wednesday"
     },
     {
-        "class_name": "Differential Calculus",
+        "class_name": "Differential Calc",
         "class_time": "11am",
         "class_date": "Wednesday"
     },
@@ -41,7 +46,7 @@
     },
     {
         "class_name": "Prof Skills Ethics & CS Trends",
-        "class_time": "4pm",
+        "class_time": "3pm",
         "class_date": "Wednesday"
     },
     {
@@ -65,7 +70,7 @@
         "class_date": "Friday"
     },
     {
-        "class_name": "Differential Calculus",
+        "class_name": "Differential Calc",
         "class_time": "11am",
         "class_date": "Friday"
     },

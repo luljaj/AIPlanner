@@ -27,7 +27,7 @@ def image_to_json(image_url):
         cleaned = re.sub(r"```(?:json)?\n|```$", "", result_str)
         result_dict = json.loads(cleaned)
         print(result_dict)
-        with open("class.json","w") as f:
+        with open("json/class.json","w") as f:
             json.dump(result_dict,f,indent = 4)
     except Exception as e:
         print('Could not save')
