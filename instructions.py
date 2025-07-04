@@ -3,8 +3,19 @@ Inputs:
 - classes: list of {name, day (1–7), start, end}  
 - goals: list of {name, duration, day_preferences (list[int] | null), priority(int)}  
 
-Produce **plain-text** output sorted by day (1-7) then start time, one task per line, e.g.  
-`2 09:00-10:15  Calculus`  
+Extract every part from the timetable image and return an array of objects:
+
+[
+  {
+    "class_name": "Calculus I",
+    "class_time": "09:00-10:15",
+    "class_date": 2          // 1=Sun … 7=Sat
+  },
+  …
+]
+
+Write every activity individually and separately.
+Return only the JSON—no extra text.
 
 Rules (in order of importance)  
 1. Block out class times first.  

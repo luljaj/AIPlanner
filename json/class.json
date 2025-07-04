@@ -1,0 +1,77 @@
+[
+    {
+        "class_name": "Prog & Hardware Fundamentals",
+        "class_time": "10:00-11:15",
+        "class_date": 2
+    },
+    {
+        "class_name": "Differential Calculus",
+        "class_time": "11:00-12:15",
+        "class_date": 2
+    },
+    {
+        "class_name": "Integral Calculus-WATSON",
+        "class_time": "11:30-12:45",
+        "class_date": 2
+    },
+    {
+        "class_name": "Inquiry and Academic Writing",
+        "class_time": "15:00-16:15",
+        "class_date": 2
+    },
+    {
+        "class_name": "Intro To Architecture (LEC)",
+        "class_time": "10:00-11:15",
+        "class_date": 3
+    },
+    {
+        "class_name": "Inquiry and Academic Writing",
+        "class_time": "15:00-16:15",
+        "class_date": 3
+    },
+    {
+        "class_name": "Prog & Hardware Fundamentals",
+        "class_time": "10:00-11:15",
+        "class_date": 4
+    },
+    {
+        "class_name": "Differential Calculus",
+        "class_time": "11:00-12:15",
+        "class_date": 4
+    },
+    {
+        "class_name": "Integral Calculus-WATSON",
+        "class_time": "11:30-12:45",
+        "class_date": 4
+    },
+    {
+        "class_name": "Prof Skills Ethics & CS Trends",
+        "class_time": "14:00-15:15",
+        "class_date": 4
+    },
+    {
+        "class_name": "Intro To Architecture (LEC)",
+        "class_time": "10:00-11:15",
+        "class_date": 5
+    },
+    {
+        "class_name": "Inquiry and Academic Writing",
+        "class_time": "15:00-16:15",
+        "class_date": 5
+    },
+    {
+        "class_name": "Prog & Hardware Fundamentals",
+        "class_time": "10:00-11:15",
+        "class_date": 6
+    },
+    {
+        "class_name": "Differential Calculus",
+        "class_time": "11:00-12:15",
+        "class_date": 6
+    },
+    {
+        "class_name": "Integral Calculus-WATSON",
+        "class_time": "11:30-12:45",
+        "class_date": 6
+    }
+]

@@ -32,5 +32,3 @@ def image_to_json(image_url):
     except Exception as e:
         print('Could not save')
     return result_str
-
-image_to_json(image_url)

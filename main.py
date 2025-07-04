@@ -32,6 +32,6 @@ except:
     print('Could not load.')
     schedule = init_schedule(classes,goals,time)
     print(schedule)
-    #with open("json/schedule.json", "r") as f:
-    #    json.dump(schedule,f,indent=4)
+    with open("json/schedule.json", "r") as f:
+        json.dump(schedule,f,indent=4)
 
